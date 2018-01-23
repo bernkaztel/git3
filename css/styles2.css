@@ -1,0 +1,153 @@
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.flag {
+    background: url(http://s22.postimg.org/u0nt2h8qp/flags.png) no-repeat;
+    display: inline-block;
+    margin-right: 10px;
+    width: 17px;
+    height: 12px;
+  }
+  
+  .flag.flag-ad { background-position: -16px 0 }
+  .flag.flag-ae { background-position: -32px 0 }
+  .flag.flag-af { background-position: -48px 0 }
+  .flag.flag-ag { background-position: -64px 0 }
+
+  #splashscreen {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/images/splash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logowhite{
+    width: 80%;
+    margin-top: 40vh;
+}
+
+#defaultpage {
+    background-image: url(../assets/images/default.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: 'LW' 'LP' 'B';
+    justify-items: center;
+    align-items: center;
+}
+
+.logopink{
+grid-area: LP;
+
+}
+
+.logowhite{
+    width: 100%;
+}
+
+.logowhite2{
+    grid-area: LW;
+}
+
+.buttons{
+    grid-area: B;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.lyftbtn{
+    background: none;
+    border: 1px white solid;
+    color: white;
+    width: 150PX;
+    height: 6vh;
+
+}
+
+.lyftbtn:hover{
+    background: linear-gradient(#76278F, rgb(247, 27, 217));
+    color: white;
+}
+
+
+.h100{
+    heigh
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#secondpage {
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    padding: 0;
+    margin: 0;
+    color: black;
+    border-bottom: 1px grey solid
+}
+
+.large{
+
+    font-size: 40px;
+}
+
+.little{
+
+    font-size: 10px;
+}
+
+.btncountry{
+    margin-top: 1vh;
+    margin-left: 2vh;
+}
+
+.btnback{
+    background: none;
+    margin-top: 10PX;
+    border: 1px rgb(112, 112, 112) solid;
+    color: rgb(0, 0, 0);
+}
+
+.dropdown-menu{
+    margin-left: 5vh;
+}
+
+.phone{
+    display: inline-block;
+    border: 1px rgb(112, 112, 112) solid;
+    border-radius: 2px;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.btnall{
+    width: 80%;
+}

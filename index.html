@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Data Dashboard</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="js/vendors/build/css/intlTelInput.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- Vista splash -->
+    <!-- Vista splash -->
+    <div class="row" id="splashscreen">
+      <div class="col-xs-4 col-xs-offset-4">
+        <img src="assets/images/white.png" class="logowhite" width="90%" alt="">
+      </div>
+    </div>
+  <div class="contenedor">
+
+
+    <div id="defaultpage" class="row hidden">
+        <header class="row nopadding">
+            <figure class="col-xs-4 col-xs-offset-4 col-sm-1 col-sm-offset-5">
+              <img class="little-white" width="100%"src="assets/images/white.png" alt="Lyft" >
+            </figure>
+          </header>
+          <div class="row nopadding">
+              <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4 display-block">
+                <img src="assets/images/pinkdouble.png"width="100%" alt="Lyft">
+              </div>
+            </div>
+
+      <div class="buttons col-xs-8 col-xs-offset-2">
+        <button class="btn lyftbtn">LOG IN</button>
+        <button class="btn lyftbtn" id="singup">SING UP</button>
+      </div>
+    </div>
+
+
+    <div id="secondpage" class="hidden">
+      <div class="navbar text-center">
+        <span class="large "> Sing Up</span>
+        <p class="little">Join now for free ride credit</p>
+      </div>
+      <div class="buttons col-xs-8 col-xs-offset-2">
+        <button id="back1" class="btn btnback center-block">GO BACK</button>
+      </div>
+
+      <div class="two col-xs-8 col-xs-offset-2 margintop">
+        <div class="form-group phone">
+          <span class="little">Coloca tu número de teléfono</span>
+            <input id="phone">
+        </div>
+      </div>
+      <button id="next1" class="btn btnall btn-danger center-block disabled">NEXT</button>
+
+    </div>
+
+    <div id="thirdpage" class="hidden">
+      <div class="navbar text-center">
+        <span class="large "> Verify phone number</span>
+        <p class="little">Join now for free ride credit</p>
+      </div>
+      <div class="buttons col-xs-8 col-xs-offset-2">
+        <button class="btn btnback center-block " id="back2">GO BACK</button>
+        <div class="col-xs-8 col-xs-offset-2 center-block">
+
+            <div class="input-group vh30">
+                <div class="input-group-addon">
+                 <span>LAB</span>
+                </div>
+                <input class="form-control" id="code" name="name" placeholder="code" type="text" />
+              </div>
+        </div>
+      </div>
+      <div class="col-xs-8 col-xs-offset-2">
+        <p class="little text-center margintop">Enter the code sent to your phone number</p>
+        <button id="sendcode" class="btn  btnback enabled center-block">SEND CODE AGAIN</button>
+        <button id="next2" class="btn disabled btn-danger btnall center-block">NEXT</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="fourthpage" class="hidden center-block">
+    <div class="navbar text-center">
+      <span class="large ">Sign Up</span>
+      <p class="little">Join now for free ride credit</p>
+    </div>
+    <div class="buttons col-xs-8 col-xs-offset-2">
+      <button id="back3" class="btn btnback center-block">GO BACK</button>
+      <div class="col-xs-12">
+        <div class="input-group m20">
+          <div class="input-group-addon ">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          </div>
+          <input class="form-control" id="mail" name="name" placeholder="Mail" type="text" />
+        </div>
+        <div class="input-group m20" id="longer">
+          <div class="input-group-addon">
+            <i class="fa fa-user">
+            </i>
+          </div>
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" />
+          <input class="form-control" id="lastname" name="lastname" placeholder="Lastname" type="text" />
+        </div>
+        <input id="check" type="checkbox" name="terms" value="lastfm" /> I agree to Lyft's <a href="https://www.lyft.com/terms">Terms of Service</a>
+        <button id="next3" class="btn btn-danger btnall disabled center-block m20">NEXT</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="lastpage" class="hidden">
+    <img src="assets/images/check.png" class="center-block" width="50%" alt="">
+  </div>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/vendors/build/js/intlTelInput.js"></script>
+</body>
+
+</html>

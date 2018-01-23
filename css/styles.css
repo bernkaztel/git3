@@ -1,0 +1,137 @@
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.iti-flag {background-image: url("../js/vendors/build/img/flags.png");}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .iti-flag {background-image: url("../js/vendors/build/img/flags@2x.png");}
+}
+
+#splashscreen {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/images/splash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logowhite {
+    width: 80%;
+    margin-top: 40vh;
+}
+
+#defaultpage {
+    height: 100vh;
+    background-image: url(../assets/images/default.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.logowhite {
+    width: 100%;
+}
+
+.lyftbtn {
+    background: none;
+    border: 1px white solid;
+    color: white;
+    width: 42%;
+    padding: 4px;
+    height: 6vh;
+}
+
+.lyftbtn:hover {
+    background: linear-gradient(#76278F, rgb(247, 27, 217));
+    color: white;
+}
+
+#secondpage {
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+    color: black;
+    border-bottom: 1px grey solid
+}
+
+.large {
+    font-size: 40px;
+}
+
+.little {
+    font-size: 10px;
+}
+
+.two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.btnback {
+    background: none;
+    margin-top: 10PX;
+    border: 1px rgb(112, 112, 112) solid;
+    color: rgb(0, 0, 0);
+}
+
+
+.btnall {
+    width: 80%;
+}
+
+.margintop{
+    margin-top: 40px;
+}
+
+#phone{
+width: 100%;
+}
+
+.phone{
+    width: 40vh;
+}
+
+.vh30{
+    margin-top: 10px;
+    width: 30vh;
+}
+
+#sendcode{
+    margin-top: 20px
+}
+
+#next2{
+    margin-top: 20px
+}
+
+.margintop{
+    margin-top: 20px
+}
+
+.m20{
+    margin-top: 20px;
+}
+
+input[type='checkbox'] {
+    margin-top: 20px;
+}
+
+#lastpage {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/images/splash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
